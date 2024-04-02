@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1qwyhtmlfogwajktfabqvhqfxapiqozuxpwirmpa",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "Common Crawl",
+    "Region": "United States",
+    "Industry": "Not-for-Profit",
+    "Website": "https://data.commoncrawl.org",
+    "Social Media": "https://twitter.com/commoncrawl",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "CommonCrawl",
+    "Brief history of your project and organization": "Mongo2Stor (MongoStorage) is working as Storage Service Provider, DataPrep and consulting services in the Filecoin echo system. Based in Southern California, USA, Mongo2Stor is a FIL Green GOLD Certified and currently working through to be fully ESPA certified provider. The founders have vast experience in networks and systems, and have gone through multiple sessions, presentation at ESPA and featured in the Zero to One Service Provider Twitter session by Protocol Labs.\r\n\r\nThis LDN request is followup to #2040, which has been a great success. Data had been stored to prominent Service Providers like Seal Storage, Simple IPFS Inc. (#1 Ranking QAP), Aligned SaaS provider, PikNik (Medula) and many others.\r\n\r\nCommonCrawl has new monthly archives since the launch of LDN #2040, and since then a year worth of data needs to be archived and make it available on the Filecoin network.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "https://data.commoncrawl.org/crawl-data/index.html\r\nCC-MAIN-2024-10 \tFebruary/March 2024 \t3.16 \t123.50\r\nCC-MAIN-2023-40 \tSeptember/October 2023 \t3.40 \t134.25\r\nCC-MAIN-2023-23 \tMay/June 2023 \t3.10 \t119.28\r\nCC-MAIN-2023-06 \tJanuary/February 2023 \t3.35 \t121.19\r\nCC-MAIN-2022-49 \tNovember/December 2022 \t3.35 \t127.89\r\nCC-MAIN-2022-40 \tSeptember/October 2022 \t3.15 \t115.63\r\nCC-MAIN-2022-33 \tAugust 2022 \t2.55 \t96.52\r\nCC-MAIN-2022-27 \tJune/July 2022 \t3.10 \t116.34\r\nCC-MAIN-2021-43 \tOctober 2021 \t3.30 \t119.83\r\nCC-MAIN-2021-25 \tJune 2021 \t2.45 \t83.79\r\nCC-MAIN-2021-21 \tMay 2021 \t2.60 \t93.66",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Singularity is an excellent tool for CAR generation. I have used it extensively for the other LDN application.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "CommonCrawl creates and compresses data indexes and original files in multiple files. Links in these files can be retrieved individually.\r\n\r\nData Type \tFile List \t#Files \tTotal Size\r\nCompressed (TiB)\r\nSegments \tsegment.paths.gz \t100 \t\r\nWARC \twarc.paths.gz \t90000 \t99.25\r\nWAT \twat.paths.gz \t90000 \t22.99\r\nWET \twet.paths.gz \t90000 \t9.30\r\nRobots.txt \trobotstxt.paths.gz \t90000 \t0.18\r\nNon-200 responses \tnon200responses.paths.gz \t90000 \t3.43\r\nURL index \tcc-index.paths.gz \t302 \t0.25\r\nColumnar URL index \tcc-index-table.paths.gz \t900 \t0.28",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02853198, South America\r\nf01904546, South Korea\r\nf01697248, South Korea\r\nf02846602, USA\r\nf01945089, USA\r\n\r\nWorking with another other SP in South America and one in Europe.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 4,
+    "Weekly Allocation": "400TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-02 11:04:40.522437240 UTC",
+    "Validated By": "psh0691",
+    "Active": true,
+    "Updated At": "2024-04-02 14:27:33.106605256 UTC",
+    "Active Request ID": "6a4dbabe-13d2-43bc-9a81-81b74c2dbb67",
+    "On Chain Address": "f1qwyhtmlfogwajktfabqvhqfxapiqozuxpwirmpa",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "6a4dbabe-13d2-43bc-9a81-81b74c2dbb67",
+      "Request Type": "First",
+      "Created At": "2024-04-02 11:04:40.522445246 UTC",
+      "Updated At": "2024-04-02 11:04:40.522446698 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "psh0691",
+          "Signing Address": "f1qdko4jg25vo35qmyvcrw4ak4fmuu3f5rif2kc7i",
+          "Created At": "2024-04-02 14:27:30.147000000 UTC",
+          "Message CID": "bafy2bzaceanndvf6kd3f5qjdl3yld37m35crqxxebcxxgoegmxtwcta47m3mw"
+        }
+      ]
+    }
+  ]
+}
