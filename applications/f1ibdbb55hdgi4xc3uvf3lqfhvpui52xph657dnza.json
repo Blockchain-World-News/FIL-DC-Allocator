@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1ibdbb55hdgi4xc3uvf3lqfhvpui52xph657dnza",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "Digital Earth Africa",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://www.digitalearthafrica.org/",
+    "Social Media": "Twitter: https://twitter.com/DEarthAfrica Youtube: https://www.youtube.com/channel/UCBasD3Dz-TdQTRoyG30kVVw",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "TechToolbox--01",
+    "Brief history of your project and organization": "TechToolbox is a technology services company that specializes in providing comprehensive solutions to our clients. We have a deep understanding of FILECOIN and excel at utilizing various tools to meet our clients' needs.\r\n\r\nOur team consists of technical experts with extensive experience in the field. We recognize the significance of technology in modern business and are committed to delivering innovative and efficient solutions to our clients.\r\n\r\nIn the realm of FILECOIN, we are expert partners. We comprehend the working principles, potential, and application scenarios of FILECOIN, and we possess the expertise to optimize your FILECOIN experience using a wide range of tools and technologies.\r\n\r\nOur services encompass a broad range of areas, including technology consulting, system integration, software development, and data analysis. Whether you are a startup or a well-established enterprise, we can provide customized solutions tailored to your specific requirements.\r\n\r\nWe prioritize our clients' success and work closely with them to ensure that our solutions help them achieve their business objectives. We are not just technology providers; we are collaborative partners dedicated to delivering excellence in technical services.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Landsat scenes and metadata. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We carry out secondary development based on https://github.com/karust/gogetcrawl. After downloading a batch of data from Amazon Web Services S3, it will automatically process the packaging and generate the car file. As long as the same download parameters are set, it can be downloaded and Generate car files with the same piececid to ensure that different SPs can download and encapsulate the same file to ensure that the data backup meets the requirements. After the car file is generated, a corresponding unit data will be generated at the same time, including filename, data_cid, piece_cid, piece_size and other information and written into the csv file. The csv file is the datacap distribution file that will be used later, and the file name is the downloaded The marker name and starting position of the dataset. Based on the metadata file, you can tell which portion of the total data set is saved by each LDN. The data download can be executed directly on the SP's device, or we can mail it to the SP through the hard disk after processing.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://deafrica-landsat/\r\ns3://deafrica-landsat-inventory/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02951064, ZheJiang-JinHua\r\nf02984282, HeNan-ZhengZhou\r\nf0122215, ShanDong-QingDao\r\nf0427989, ShanDong-QingDao\r\nf02942808, GuangDong-ShenZhen\r\nf02894875, JiangXi-FuZhou",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 9,
+    "Weekly Allocation": "250TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-03 15:16:23.000354388 UTC",
+    "Validated By": "psh0691",
+    "Active": true,
+    "Updated At": "2024-04-03 15:17:40.539123658 UTC",
+    "Active Request ID": "e183fcba-2bc6-4b47-bea0-2a970ecaa4df",
+    "On Chain Address": "f1ibdbb55hdgi4xc3uvf3lqfhvpui52xph657dnza",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "e183fcba-2bc6-4b47-bea0-2a970ecaa4df",
+      "Request Type": "First",
+      "Created At": "2024-04-03 15:16:23.000359081 UTC",
+      "Updated At": "2024-04-03 15:16:23.000359766 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "psh0691",
+          "Signing Address": "f1qdko4jg25vo35qmyvcrw4ak4fmuu3f5rif2kc7i",
+          "Created At": "2024-04-03 15:17:38.269000000 UTC",
+          "Message CID": "bafy2bzacea4iyail3c4taz3dsrkssqp4tegs7y5o3swikzrhvzh3abidwxhns"
+        }
+      ]
+    }
+  ]
+}
