@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1qqfa2twu6jjcc46tvxy6oidwtrskimedy7monzy",
+  "Issue Number": "9",
+  "Client": {
+    "Name": "Onnuri Church",
+    "Region": "Korea, Republic of",
+    "Industry": "Not-for-Profit",
+    "Website": "https://www.onnuri.org/",
+    "Social Media": "Facebook",
+    "Social Media Type": "Facebook",
+    "Role": "Data onramp entity that provides data onboarding services to multiple clients"
+  },
+  "Project": {
+    "Project Id": "Church Data",
+    "Brief history of your project and organization": "Lstonz has been established to provide a data onboarding service for churches aiming to store their data on the Filecoin network. Church data refers to videos related to pastors' sermons, choir performances, and other activities within the church. Most churches currently store recent data on their church website servers, while past data is often stored on hard drives and kept in storage warehouses. Furthermore, the lack of proper categorization for the data on these hard drives makes it extremely difficult to locate the storage locations when the church needs to find the data to restore. To address these issues, Lstonz not only conducts indexing tasks for church data but also monitors data preparation processes for storage on the Filecoin network. As the first client, Onnuri Church, which is one of top 10 large churches in Korea, agreed to store all pastors' video data into filecoin network. And Lstonz is planning to expand its services to other small and large churches.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Once the datacap is approved, initially the famous pastor Ha's sermon videos will be stored onto filecoin network, which covers most chapters of the Bible. Once this initiative is completed, video data of Onnuri Church's other activities as well as similar video data of many other churches will be stored in the near future.",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.youtube.com/watch?v=PzkuyIn__sk",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01848694, North America, Seal Storage Technology Inc., Jacques Swanepoel, jacques.swanepoel@sealstorage.io   \r\n2. f01938357, Australia, Distributed Storage Solutions, Nathanial Marsh, nathanial@distributedstorage.com\r\n3. f01900525, Korea, GMI Asia, YoonJae Lee, futuremaster777@gmail.com     \r\n4. f01924891, Korea, Total Shift, Changik Song, changik.song@totalshift.co.kr   \r\n5. f01987994, Korea, Vogo Digital Labs, Ho Seok Lee, hslee@vogogrp.com",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-09 16:07:22.623011268 UTC",
+    "Validated By": "psh0691",
+    "Active": true,
+    "Updated At": "2024-04-09 16:08:11.471115876 UTC",
+    "Active Request ID": "10b97784-9a76-4eec-b794-cb787c228fed",
+    "On Chain Address": "f1qqfa2twu6jjcc46tvxy6oidwtrskimedy7monzy",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "10b97784-9a76-4eec-b794-cb787c228fed",
+      "Request Type": "First",
+      "Created At": "2024-04-09 16:07:22.623017488 UTC",
+      "Updated At": "2024-04-09 16:07:22.623018329 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "psh0691",
+          "Signing Address": "f1qdko4jg25vo35qmyvcrw4ak4fmuu3f5rif2kc7i",
+          "Created At": "2024-04-09 16:08:09.089000000 UTC",
+          "Message CID": "bafy2bzacecminqr6i6rqyyjdtpbprtvz4amsboosnlen5z7gmkqyvjey64eqo"
+        }
+      ]
+    }
+  ]
+}
