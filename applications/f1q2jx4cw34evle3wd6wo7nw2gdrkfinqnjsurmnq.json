@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1q2jx4cw34evle3wd6wo7nw2gdrkfinqnjsurmnq",
+  "Issue Number": "11",
+  "Client": {
+    "Name": "Kim Jin Hyuk Gongjakso",
+    "Region": "Korea, Republic of",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.facebook.com/gonngzakso",
+    "Social Media": "Facebook",
+    "Social Media Type": "Facebook",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "Kim Jin Hyuk Gongjakso",
+    "Brief history of your project and organization": "After 10years of producing director career from the major Korean national broadcasting companies like MBC and SBS, my name was becoming very popular enough to establish a production firm with a crew of the market top professionals. Over the 14years of projects, KIMJINHYUK Gongzakso became Korea's #1 documentary production company in quality & quantity; 98 60-minute, 96 30-minute, and 723 10-minute films. A total of 20 contests were awarded, including the largest number of planned contests, the Production Content & Broadcasting Agency, and the Presidential Award at the 2018 Broadcasting Content Awards. As our eyes turn to the world's paradigms on blockchain and WEB 3.0 to BE FREE from the media dinosaurs and the data security in order to promote new global online services with our 14year-of-works, we are facing the next flow of service infrastructure and data management strategy. Projects with National Geographic and Biography Channel, especially, the current projects by Samsung as well as the future potential requirement of 8K UHD document filming along with all our past documents need the next epoch-marking data treatment methodology to provide many angles of online-based service. Breaking out of the media influence blanket and preparing for the world stream is our motto of 3year planning.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Publicly distributable video cuts and scene photos and full archives of the original films",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Facebook Main Page: https://www.facebook.com/gongzakso\r\nDocumentary Samples: https://www.facebook.com/gongzakso/videos/731750654345023\r\nhttps://www.facebook.com/gongzakso/videos/304153544075615\r\n\r\nYoutube Channel : https://www.youtube.com/channel/UCGhsFusjgbmp1hZzW0MBlng",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01848694, North America, Seal Storage Technology Inc., Jacques Swanepoel, jacques.swanepoel@sealstorage.io   \r\n2. f01938357, Australia, Distributed Storage Solutions, Nathanial Marsh, nathanial@distributedstorage.com\r\n3. f01900525, Korea, GMI Asia, YoonJae Lee, futuremaster777@gmail.com     \r\n4. f01924891, Korea, Total Shift, Changik Song, changik.song@totalshift.co.kr   \r\n5. f01987994, Korea, Vogo Digital Labs, Ho Seok Lee, hslee@vogogrp.com",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-04-09 06:52:29.351559524 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1q2jx4cw34evle3wd6wo7nw2gdrkfinqnjsurmnq",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
