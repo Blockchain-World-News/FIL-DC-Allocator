@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "FileTech-02",
     "Brief history of your project and organization": "FileTech focuses on providing excellent data storage solutions. We have a passionate and knowledgeable team with extensive experience and expertise in the field of data storage. Whether it's data storage, data management, data recovery, or data center design and construction, we possess abundant technical capabilities and solutions.\r\n\r\nAt FileTech, we understand the importance of data in modern businesses. We not only offer high-performance data storage devices and solutions, but also provide comprehensive data management tools to help clients efficiently organize, classify, and protect their data assets.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "EMPIAR, the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB). EMPIAR also accommodates 3D datasets obtained with volume EM techniques and soft and hard X-ray tomography. More ...\r\nAs of 2023-03-27, EMPIAR contains 1254 entries, taking up 2.73 PB of storage.",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-05-11 08:55:29.315547904 UTC",
     "Validated By": "psh0691",
     "Active": true,
-    "Updated At": "2024-05-11 08:56:39.016265409 UTC",
-    "Active Request ID": "aa73d7f8-076d-41cb-a385-509b5f686e4a",
+    "Updated At": "2024-05-13 13:00:05.709523507 UTC",
+    "Active Request ID": "bda8cef0-d4be-44b2-9685-96fc3f30dfa5",
     "On Chain Address": "f1iilvoccl27nyy5ejsrxrz4b2huepu5xjlffnu7q",
     "Multisig Address": "false",
     "edited": false
@@ -62,6 +61,15 @@
           "Message CID": "bafy2bzacebrjrdegydqnk25gu4xovxka2hgfuquwqyldkasyzvztvsztcsaya"
         }
       ]
+    },
+    {
+      "ID": "bda8cef0-d4be-44b2-9685-96fc3f30dfa5",
+      "Request Type": "Refill",
+      "Created At": "2024-05-13 13:00:05.709527795 UTC",
+      "Updated At": "2024-05-13 13:00:05.709528571 UTC",
+      "Active": true,
+      "Allocation Amount": "512TiB",
+      "Signers": []
     }
   ]
 }
