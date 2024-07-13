@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "CommonCrawl",
     "Brief history of your project and organization": "Mongo2Stor (MongoStorage) is working as Storage Service Provider, DataPrep and consulting services in the Filecoin echo system. Based in Southern California, USA, Mongo2Stor is a FIL Green GOLD Certified and currently working through to be fully ESPA certified provider. The founders have vast experience in networks and systems, and have gone through multiple sessions, presentation at ESPA and featured in the Zero to One Service Provider Twitter session by Protocol Labs.\r\n\r\nThis LDN request is followup to #2040, which has been a great success. Data had been stored to prominent Service Providers like Seal Storage, Simple IPFS Inc. (#1 Ranking QAP), Aligned SaaS provider, PikNik (Medula) and many others.\r\n\r\nCommonCrawl has new monthly archives since the launch of LDN #2040, and since then a year worth of data needs to be archived and make it available on the Filecoin network.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "https://data.commoncrawl.org/crawl-data/index.html\r\nCC-MAIN-2024-10 \tFebruary/March 2024 \t3.16 \t123.50\r\nCC-MAIN-2023-40 \tSeptember/October 2023 \t3.40 \t134.25\r\nCC-MAIN-2023-23 \tMay/June 2023 \t3.10 \t119.28\r\nCC-MAIN-2023-06 \tJanuary/February 2023 \t3.35 \t121.19\r\nCC-MAIN-2022-49 \tNovember/December 2022 \t3.35 \t127.89\r\nCC-MAIN-2022-40 \tSeptember/October 2022 \t3.15 \t115.63\r\nCC-MAIN-2022-33 \tAugust 2022 \t2.55 \t96.52\r\nCC-MAIN-2022-27 \tJune/July 2022 \t3.10 \t116.34\r\nCC-MAIN-2021-43 \tOctober 2021 \t3.30 \t119.83\r\nCC-MAIN-2021-25 \tJune 2021 \t2.45 \t83.79\r\nCC-MAIN-2021-21 \tMay 2021 \t2.60 \t93.66",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "400TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-02 11:04:40.522437240 UTC",
     "Validated By": "psh0691",
     "Active": true,
-    "Updated At": "2024-04-19 08:28:01.555316691 UTC",
-    "Active Request ID": "c22085be-5c52-4bcc-8a5c-0a65618555a5",
+    "Updated At": "2024-07-13 15:44:12.351579834 UTC",
+    "Active Request ID": "d2437325-e036-40cc-ac1e-48123c0bdba1",
     "On Chain Address": "f1qwyhtmlfogwajktfabqvhqfxapiqozuxpwirmpa",
     "Multisig Address": "false",
     "edited": null
@@ -94,6 +93,15 @@
           "Message CID": "bafy2bzacedv3mo7s5d4fw4u4sn62nimhivaf2c45vwayglqepfj54otodlul6"
         }
       ]
+    },
+    {
+      "ID": "d2437325-e036-40cc-ac1e-48123c0bdba1",
+      "Request Type": "Refill",
+      "Created At": "2024-07-13 15:44:12.351587536 UTC",
+      "Updated At": "2024-07-13 15:44:12.351589058 UTC",
+      "Active": true,
+      "Allocation Amount": "1PiB",
+      "Signers": []
     }
   ]
 }
