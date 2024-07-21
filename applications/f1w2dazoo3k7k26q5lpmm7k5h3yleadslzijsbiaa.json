@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1w2dazoo3k7k26q5lpmm7k5h3yleadslzijsbiaa",
+  "Issue Number": "26",
+  "Client": {
+    "Name": "USGS",
+    "Region": "United States",
+    "Industry": "Utilities",
+    "Website": "https://www.usgs.gov/",
+    "Social Media": "https://www.usgs.gov/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Huasheng Datapedia is a high-tech enterprise focused on data analysis and information services. The company is committed to providing customers with comprehensive and reliable data information, as well as in-depth and precise data analysis solutions.\r\n\r\nIn addition to traditional web2 storage, the company is also actively expanding into the blockchain industry, including IPFSTT storage.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "USGS (United States Geological Survey) is a renowned open data website that serves as a valuable resource for a wide range of scientific information. This publicly accessible platform acts as a repository for diverse categories of data, including biology, climate, coastlines, ecosystems, geology, natural disasters, oceans, cartography, and planetary science.\r\n\r\nWith an extensive collection of data, USGS houses a staggering 10 Petabytes (10 Pib) of metadata. This vast wealth of information is made available to the public, allowing users to freely download, store, and utilize the data for various purposes.\r\n\r\nUSGS plays a crucial role in advancing scientific research, environmental studies, and resource management. The website serves as a hub for researchers, policymakers, educators, and the general public, offering a wealth of knowledge and insights into our natural world.\r\n\r\nThe data hosted on USGS covers a broad spectrum of disciplines, providing valuable insights into the Earth's systems and processes. From studying climate patterns and understanding geological formations to analyzing ecosystems and managing natural hazards, the website offers a comprehensive suite of data resources.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.sciencebase.gov/catalog/item/65a1dad5d34e5af967a450d7",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03068013-HK\r\nf03035686-GuangDong\r\nf01926635-SiChuang\r\nf01999119-SiChuang\r\nf03136267-HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "800TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-07-21 12:41:59.875831355 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1w2dazoo3k7k26q5lpmm7k5h3yleadslzijsbiaa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
