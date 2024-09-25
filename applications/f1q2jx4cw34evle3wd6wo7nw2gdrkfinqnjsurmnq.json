@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "Kim Jin Hyuk Gongjakso",
     "Brief history of your project and organization": "After 10years of producing director career from the major Korean national broadcasting companies like MBC and SBS, my name was becoming very popular enough to establish a production firm with a crew of the market top professionals. Over the 14years of projects, KIMJINHYUK Gongzakso became Korea's #1 documentary production company in quality & quantity; 98 60-minute, 96 30-minute, and 723 10-minute films. A total of 20 contests were awarded, including the largest number of planned contests, the Production Content & Broadcasting Agency, and the Presidential Award at the 2018 Broadcasting Content Awards. As our eyes turn to the world's paradigms on blockchain and WEB 3.0 to BE FREE from the media dinosaurs and the data security in order to promote new global online services with our 14year-of-works, we are facing the next flow of service infrastructure and data management strategy. Projects with National Geographic and Biography Channel, especially, the current projects by Samsung as well as the future potential requirement of 8K UHD document filming along with all our past documents need the next epoch-marking data treatment methodology to provide many angles of online-based service. Breaking out of the media influence blanket and preparing for the world stream is our motto of 3year planning.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Publicly distributable video cuts and scene photos and full archives of the original films",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-16 06:36:19.291379344 UTC",
     "Validated By": "psh0691",
     "Active": true,
-    "Updated At": "2024-04-16 06:37:26.554249055 UTC",
-    "Active Request ID": "1663d0f0-8d97-46a1-8848-a6e29492c78b",
+    "Updated At": "2024-09-25 00:05:12.307672096 UTC",
+    "Active Request ID": "79daae4a-bcc4-4f83-a0f4-be3a9d0e0c6d",
     "On Chain Address": "f1q2jx4cw34evle3wd6wo7nw2gdrkfinqnjsurmnq",
     "Multisig Address": "false",
     "edited": null
@@ -62,6 +61,15 @@
           "Message CID": "bafy2bzacedelojovnu3qs2cx52z7grgtdrnquz7q6gpy4v7dxjjs3tyhublyo"
         }
       ]
+    },
+    {
+      "ID": "79daae4a-bcc4-4f83-a0f4-be3a9d0e0c6d",
+      "Request Type": "Refill",
+      "Created At": "2024-09-25 00:05:12.307710026 UTC",
+      "Updated At": "2024-09-25 00:05:12.307711154 UTC",
+      "Active": true,
+      "Allocation Amount": "100TiB",
+      "Signers": []
     }
   ]
 }
