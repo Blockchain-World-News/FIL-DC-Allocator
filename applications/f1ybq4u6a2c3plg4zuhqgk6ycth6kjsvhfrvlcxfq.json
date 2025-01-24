@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ybq4u6a2c3plg4zuhqgk6ycth6kjsvhfrvlcxfq",
+  "Issue Number": "54",
+  "Client": {
+    "Name": "NASA",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/489/",
+    "Social Media": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/489/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "NASA is an independent agency of the United States federal government responsible for developing and implementing the United States' civil space program and conducting aerospace and space science research.NASA advances our understanding of the Earth through its Earth Observation System[8] and advances solar science through its Solar Science Program[9]. NASA focuses on exploring all celestial bodies in the Solar System using advanced robotic spacecraft such as the New Horizons mission[10] and studying topics in astrophysics such as the Big Bang theory using its Large Orbiting Observatory Program and related programs[11]. NASA shares its research data with many organizations both within the United States and internationally. It is the world's largest government space agency.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Medium Resolution Imaging Spectrometer (MERIS) is one of 10 sensors deployed in March of 2002 on board the polar-orbiting Envisat-1 environmental research satellite by the European Space Agency (ESA). The MERIS instrument is a moderate-resolution wide field-of-view push-broom imaging spectroradiometer capable of sensing in the 390 nm to 1040 nm spectral range. Being a programmable instrument, it had the unique capability of selectively adjusting the width and location of its 15 bands through ground command. The instrument has a 68.5-degree field of view and a swath width of 1150 meters, providing a global coverage every 3 days at 300 m resolution. The MERIS instrument was primarily designed for measuring ocean color, but its scope of objectives was broadened to serve atmospheric and terrestrial observations as well. Communication with the Envisat-1 satellite was lost suddenly on the 8th of April, 2012, just weeks after celebrating its 10th year in orbit. All attempts to re-establish contact were unsuccessful, and the end of the mission was declared on May 9th, 2012.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "First i will download the data from NASA and use official tools to prepare.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/489/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0114110 US\nf0120612  CN\nf0133235 HEnan Province CN\nf0154137 CN\nf0154795 US\nf0536177 US\nf0711260 CN\nf0711266 CN\nf0101016 CN\nf0861594 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "300TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "200TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-24 03:54:44.392712212 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ybq4u6a2c3plg4zuhqgk6ycth6kjsvhfrvlcxfq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
