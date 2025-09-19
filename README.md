@@ -7,9 +7,9 @@ Contact e-mail : psh0691@gamil.com, psh0691@bcwnews.com
         Kakaotalk : 0691psh
         Telegram : heavenwish
 # Allocator Json Link
-https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json
+[Blockchain World News Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
 
-##Client Dilligence
+# Client Dilligence
 #1.Client Verification & Initial Trust Establishment
 We will have to go through strict KYC verification. And have an in-depth understanding of the project background research (public website, GitHub, white paper)
 
