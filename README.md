@@ -75,10 +75,12 @@ Some of the verification information includes:
 3. Business authorization letter (CEO signature + stamp)
 4. Sample data submission (20% of total DataCap applications)
 5. Business perception of Filecoin
-6. Social media (official website, WeChat, LinkedIn, GitHub)
+6. Social media (official website, LinkedIn, GitHub)
 
-## 2.Legal Compliance Review
-I understand the data related laws in China and Asia. So when a client from China or Asia applies, I can make a judgment based on my knowledge of the law. 2. After accepting applications from clients in other regions, I will ask the client to provide the location and data-related legal documents, and ask the client to make corresponding commitments. 3. I will carefully read the local data-related legal documents, ask some lawyers, and judge the legal compliance through the relevant laws of the client's location.
+## 2.Legal Compliance Review 
+1. I understand the data related laws in Korea and Asia. So when a client from Korea or Asia applies, I can make a judgment based on my knowledge of the law.
+2. After accepting applications from clients in other regions, I will ask the client to provide the location and data-related legal documents, and ask the client to make corresponding commitments.
+3. I will carefully read the local data-related legal documents, ask some lawyers, and judge the legal compliance through the relevant laws of the client's location.
 
 ## 3.Data Sampling
 at the time of the client's application, I will ask the client to provide a sample of the data.
@@ -88,7 +90,7 @@ In order to avoid the situation of sector filling, I will use Lotus to download 
 ## 4.Verification Tools Used
 I would use the following tools:
 
-1. datacapstats.io
+1. [DataCapStats.io](https://datacapstats.io/)
 2. CID Check Bot
 3. AC Bot
 
@@ -97,10 +99,7 @@ I would use the following tools:
 2. CID sampling records, screenshots of verified data content, and verification process summaries.
 3. On-chain deal proof, including verified deal status, dealIDs, pieceCIDs, and data sizes.
 4. Historical behavior tracking of clients and SP to confirm responsible usage of previous DataCap allocations.
-
-# Short description of pathway for clients
-Choose Tianji Studio Fil+ for a transparent, secure, and enterprise-focused DataCap allocation process, aligned with the Enterprise-Data-Pathway. We serve small-scale developers, enterprise data clients, and Web3 startups, with a focus on private/encrypted datasets and public datasets for non-profit and social impact initiatives. Our rigorous KYC/KYB, virtual meeting options, and phased allocation (up to 5 PiB for trusted users) ensure trust and compliance. With tools like DataCapStats.io and a robust dispute resolution process, we prioritize accountability and secure storage across diverse regions.
-        
+       
 # Detailed Allocator policies, procedures, and requirements.
 # Risk mitigation strategies
   **- Target Clients**: Small-scale developers, enterprise data clients, individuals learning about Filecoin, and clients onboarding private/encrypted datasets via the Enterprise-Data-Pathway.  
