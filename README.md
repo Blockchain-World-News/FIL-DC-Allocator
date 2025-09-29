@@ -10,7 +10,7 @@
 # Allocator Json Link
 [Blockchain World News Filecoin Plus DataCap Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
 
-# What is Filecoin Plus
+# What is Filecoin Plus?
 The goal of the Filecoin Plus program is to increase the amount of useful data stored with storage providers by clients on the Filecoin network.  
 
 In short, this is achieved by appointing allocators responsible for assigning DataCap tokens to clients that are vetted by the allocator as trusted parties storing useful data. Clients then pay DataCap to storage providers as part of a storage deal, which increases a storage provider’s probability of earning block rewards.  
