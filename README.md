@@ -1,5 +1,5 @@
 # Blockchain World News Fil+ DC Allocator  
-## V5,6 FIL+ DC Allocator Bookkeeping Repository
+## V6 FIL+ DC Allocator Bookkeeping Repository
 **Conutry of Operation** : Republic of Korea  
 **Contact**  
   . e-mail : psh0691@gamil.com  
@@ -8,7 +8,7 @@
   . Telegram : heavenwish
         
 # Allocator Json Link
-[Blockchain World News Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
+[Blockchain World News Filecoin Plus DataCap Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
 
 # What is Filecoin Plus
 The goal of the Filecoin Plus program is to increase the amount of useful data stored with storage providers by clients on the Filecoin network.  
@@ -31,154 +31,79 @@ The steps a client should follow to DataCap are as follows:
 
 2. Choose an allocator.
 
-3. Check that you satisfy the requirements of the allocator. In the case of uploading open source datasets with FIDL as the allocator, the client will need to demonstrate to FIDL that they can  
+3. Check that you satisfy the requirements of the allocator. In the case of uploading open source datasets with BWN as the Fil+ Allocator,  
    (1) satisfy a third party Know Your Customer(KYC) identity check,  
    (2) provide the details of storage provider (entity, storage location) where the data is intended to be stored,  
    (3) demonstrate proof that the dataset can be actively retrieved.  
 
-5. Submit an application for DataCap from an allocator. You can submit a request to FIDL via their Github application form or Google Form.
+5. Submit an [application](https://github.com/Blockchain-World-News/FIL-DC-Allocator/issues/new/choose) for DataCap from an allocator.
 
 6. Use the DataCap in a storage deal.
 
+# Filecoin Plus Reference Site
+There are three resources you can use to check the current status of the Filecoin+ deals and participants:
+
+ - The [Filecoin Pulse dashboard](https://filecoinpulse.pages.dev/allocators/) includes visualizations of and tables for data about Filecoin Plus deals on the Filecoin blockchain, organized by Allocators, Clients, and Storage Providers.  
+ - The [Datacap Stats dashboard](https://datacapstats.io) shows DataCap allocations, including the number of allocators, clients, and storage providers. You can also see number and size of deals.  
+ - The [Starboard Dashboard](https://dashboard.starboard.ventures/market-deals) includes network health data related to Filecoin Plus verified deals.  
 
 
+# Diligence Clients
 
+## New User Check
+  - Is this a completely new GitHub ID? (less than 2 months old)
+  - Is this the first time this GitHub ID has applied for DataCap in this or other allocotor pathways?
+  - If yes to either, applicants will have a maximum DataCap allowance for their first application
 
-
-
-# Client Dilligence
-## 1.Client Verification & Initial Trust Establishment
-We will have to go through strict KYC verification. And have an in-depth understanding of the project background research (public website, GitHub, white paper)
-
-## 2. Sybil Attack Mitigation
- 1. I would use a third party KYC service to confirm the identity of the customer and the organization he represents. I would consider using the ""toggle"" third party tool.
- 2. The client will need to provide a GitHub account, a slack account.
- 3. The third party tool ""toggle"" verification may involve face verification and ID verification.
- 4. We hereby declare that the private information of the customer is only used to verify whether the customer is a real person or not, and will not use the information for other purposes.
-
-## 3.Automated Pathway Controls
- 1. There are new standards and strict rules for reviewing data as well as KYB/KYC.
- 2. In checking the geographic location of SPs and the content they store, the rules will be strictly enforced.
-3. In response to the current slow response from the Fil+ community and the inability to fulfill customers' needs in the first time. We will have time to deal with this on a daily basis.
-4. Communication efficiency, customer and community participation will be greatly improved.
-   
-## 4. Enterprise or Paying Client Ownership Verification
-I will use a third party KYB tool to verify business clients
-
-Some of the verification information includes:
-
-1. Organization name, nationality, country of incorporation, time of incorporation, names of executives and relevant websites
-2. Business license
-3. Business authorization letter (CEO signature + stamp)
-4. ample data submission (20% of total DataCap applications)
-5. Business perception of Filecoin
-6. Social media (official website, WeChat, LinkedIn, GitHub)
-
-## 5. Auditable Diligence Evidence for Governance
-we need to confirm their identification.
-
-For individual customers, the verification of their identity will be verified through:
-
-1. Identification number
-2. Name
-3. Data of birth
-4. Copy of Passport
-5. Address
-6. Social media account (Facebook/LinkedIn/Twitter)
-7. Local Offices Contact Details
-8.  Social reputation (Prize, Achievement)
-   
-For corporate clients, the verification of their identity will be verified through:
-
-1. Company Registration Certificate/Operating Licence
-2. Address
-3. Website
-4. Social media account (Facebook/Linkedin/Twitter)
-5. Record of law suits and legal reputation
-6. Company equity structure and key stakeholders
-7. Scanned copy of letter from company with stamps and signature of director/stakeholder from the company
-
-Stakeholder due diligence process for company shares/equity over 20%. (Stakeholder due diligence process will be similar to the above process, until the final beneficiary/the-actual-stakeholder is found.)
+## Client ID Check (KYC)
+ - All applicants will be asked if they are willing to complete a free Know Your Customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
+ - If they decline the check, they will be significantly limited in the maximum amount of DataCap they can request unless they are able to provide other forms of client identification.
+ - I would use a third party KYC service to confirm the identity of the customer and the organization he represents. I would consider using the ""toggle"" third party tool.
+ - The client will need to provide a GitHub account, a slack account.
+ - The third party tool ""toggle"" verification may involve face verification and ID verification.
+ - We hereby declare that the private information of the customer is only used to verify whether the customer is a real person or not, and will not use the information for other purposes.
 
 # Description of Data Diligence
-## 1.Due diligence to verify client project scope
-I will use a third party KYB tool to verify business clients
-
-Some of the verification information includes:
-
-1. Organization name, nationality, country of incorporation, time of incorporation, names of executives and relevant websites
-2. Business license
-3. Business authorization letter (CEO signature + stamp)
-4. Sample data submission (20% of total DataCap applications)
-5. Business perception of Filecoin
-6. Social media (official website, LinkedIn, GitHub)
-
-## 2.Legal Compliance Review 
-1. I understand the data related laws in Korea and Asia. So when a client from Korea or Asia applies, I can make a judgment based on my knowledge of the law.
-2. After accepting applications from clients in other regions, I will ask the client to provide the location and data-related legal documents, and ask the client to make corresponding commitments.
-3. I will carefully read the local data-related legal documents, ask some lawyers, and judge the legal compliance through the relevant laws of the client's location.
-
-## 3.Data Sampling
+## 1.Data Sampling
 at the time of the client's application, I will ask the client to provide a sample of the data.
 Ask the client to describe how they do their data preparation work.
 In order to avoid the situation of sector filling, I will use Lotus to download their files according to the CID after each round of DataCap allocation, and randomly check whether the data stored in the SP is consistent with what is declared.
 
-## 4.Verification Tools Used
+## 2.Verification Tools Used
 I would use the following tools:
 
 1. [DataCapStats.io](https://datacapstats.io/)
 2. CID Check Bot
 3. AC Bot
 
-## 5.Proof of Diligence for Governance Audits
-1. Provide all the information of the customer's KYB.
-2. CID sampling records, screenshots of verified data content, and verification process summaries.
-3. On-chain deal proof, including verified deal status, dealIDs, pieceCIDs, and data sizes.
-4. Historical behavior tracking of clients and SP to confirm responsible usage of previous DataCap allocations.
+
        
-# Detailed Allocator policies, procedures, and requirements.
-# Risk mitigation strategies
-  **- Target Clients**: Small-scale developers, enterprise data clients, individuals learning about Filecoin, and clients onboarding private/encrypted datasets via the Enterprise-Data-Pathway.  
-  **- Supported Data Types**: Public open datasets (research/non-profit), public commercial/enterprise data, private commercial/enterprise data, and private non-profit/social impact data.  
-  **-KYB/KYC Requirements**:  
-    - Business: Registration certificates, incorporation details, government-issued business IDs, authorized signer verification, and (if applicable) proof of dataset ownership via Synaps.io or virtual meeting.  
-    - Personal: Gitcoin Passport KYC (minimum score of 20) and virtual meeting for identity confirmation.  
-  **- Storage Requirements**:  
-    - Minimum of 5 replicas per dataset (stricter than the pathway’s 2-copy minimum for consistency with Fivestar policy).  
-    - Data stored across 3–4 geographic regions.  
-    - Each storage provider (SP) receives no more than 25% of DataCap per round.  
-    - Clients disclose SP partners upfront or use approved network tools (e.g., SP Marketplace, SPADE).  
-  **- DataCap Distribution**:  
-    - First-Time User Allocation:  
-      With KYC: Up to 50 TiB.  
-      Without KYC: Up to 10 TiB.  
-  **- Trusted User Allocation(after successful onboarding or for trusted GitHub IDs with prior public dataset experience pre-2024)**:  
-     . 1st allocation: 5%  
-     . 2nd allocation: 15%  
-     . 3rd allocation: 30%  
-     . 4th allocation: 50%  
-     . Eligible for up to 5 PiB after successful onboarding, with KYC completion.  
-  **- Subsequent Allocations**: Triggered when >75% of prior DataCap is used, reviewed within a 3-day SLA. Allocations expire after 3 months if unused.  
+# Detailed Allocator policies
+## Minimum client requirements:
+ - At least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.
+ - The dataset is made readily retrievable (via an unsealed copy) on the network and can be regularly verified (through the use of manual or automated verification that includes retrieving data over the course of the DataCap allocation timeframe).
+ - Clients disclose their storage provider partners upfront or designate an approved network tool they will use for SP selection
+ - Clients are required to apply for DataCap using the following GitHub repo [LINK](https://github.com/Blockchain-World-News/FIL-DC-Allocator/issues/new/choose) which contains questions related to the client role, data preparation, financing, dataset details, and storage provider distribution plan
+   
+# DataCap Distribution:  
+## First-Time User Allocation:  
+    With KYC: Up to 50 TiB.  
+    Without KYC: Up to 10 TiB.  
+ ## Trusted User Allocation:  
+    . 1st allocation: 5%  
+    . 2nd allocation: 15%  
+    . 3rd allocation: 30%  
+    . 4th allocation: 50%  
+   Eligible for up to 5 PiB after successful onboarding, with KYC completion.  
+
+  ## Other
+  **- Subsequent Allocations**: Triggered when >75% of prior DataCap is used, reviewed within a 3-day SLA.  
+  **- DataCap Expiration date**: 3 months, if not used afterwards, the application will be closed and the remaining DCs will be removed.  
   **- Non-Compliance**: Applications closed if clients abandon or fail to complete onboarding; GitHub IDs and miner IDs may be flagged for future exclusion.  
-  **- Alternative Schedule (for non-pathway clients)**: Phase 1: 10%, Phase 2: 15%, Phase 3: 25%, Phase 4: 50%, capped at 1 PiB per round.  
   **- VPN Usage**: Permitted, but clients must ensure actual locations comply with geographic policies; location spoofing is prohibited.  
-  **- Verification Tools**: [DataCapStats.io](https://datacapstats.io/), CID Checker Bot, and AC Bot (weekly compliance checks).
+
     
-## Dispute Resolutions
-To protect our organization, reputation, and pathway from abuse, Fivestar implements the following, enhanced by Enterprise-Data-Pathway practices:
-
-  **- Operational Security (OpSec)**: KYC/KYB data and client records are stored with encryption and access controls. Non-disclosure agreements protect client privacy during virtual meetings. Regular internal audits prevent data breaches.  
-  **- User Agreements**: Clients sign agreements ensuring compliance with Filecoin Plus policies, geographic requirements, and data ownership responsibilities.  
-  **- Rate Limiting**: DataCap capped at 1 PiB per round (or 5 PiB for trusted users), with phased distribution (5%–50%) and a 25% SP allocation limit per round to prevent overuse.  
-  **- Alerts and Monitoring**: [DataCapStats.io](https://datacapstats.io/) and AC Bot monitor deal-making, distribution, and retrieval compliance weekly. CID Checker Bot flags anomalies for manual review.  
-  **- Throttling Mechanisms**: Automated checks limit request frequency and volume to prevent Sybil attacks or spam.  
-  **- Non-Compliance Handling**: Clients providing fake or misleading information face immediate application closure and potential blacklisting of GitHub IDs/miner IDs. Clients have up to 3 weeks to rectify non-compliance; failure leads to termination of future DataCap allocations.
-
-
-# Compliance Audit Check
-To ensure compliance with program-wide and pathway-specific requirements:
-
-**- Client Compliance**: KYC via Gitcoin Passport and KYB via Synaps.io or virtual meetings verify client identity and data ownership. Clients confirm adherence to local/regional laws and submit dataset details via [Blockchain World News Alloctor](https://github.com/Blockchain-World-News/FIL-DC-Allocator).  
-**- Storage Provider Compliance**: AC Bot and [DataCapStats.io](https://datacapstats.io/) verify 5 replicas, 3–4 geographic regions, 25% SP allocation limit, and SP KYB (if non-vetted SPs are used). Retrieval standards are checked via manual/automated verification.  
-**- Regular Audits**: Internal audits of allocation records, storage deals, and compliance documentation are conducted, with records available for Fil+ Governance Team review.  
-**- Monitoring Tools**: Weekly AC Bot checks, [DataCapStats.io](https://datacapstats.io/), and CID Checker Bot ensure ongoing compliance. Non-compliant applications are automatically closed if thresholds are not met.
+## Dispute / Appeals
+- For any disputes between our allocator and a client, hereby termed appeal(s), we will source the appeals through the Open Data Allocator Appeals Form (https://docs.google.com/forms/d/e/1FAIpQLSfkdb_p9sg5sx_bnSlX0r9rdKXFGmz4dGC1cBtMEYuDym3Ecw/viewform) where all our clients can submit an appeal and someone on the allocator team will address it with a 14 day SLA. 
+- We would like to respect the privacy of the client and do not plan to host a public resolution process.
+- For disputes raised by community members/non-clients about our allocation approach and strategy, we will comply with the public dispute tracker that is being built by the Filecoin Foundation Governance team. We can commit an SLA for such disputes to be 21 days.
