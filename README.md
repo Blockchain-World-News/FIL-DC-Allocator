@@ -10,6 +10,42 @@
 # Allocator Json Link
 [Blockchain World News Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
 
+# What is Filecoin Plus
+The goal of the Filecoin Plus program is to increase the amount of useful data stored with storage providers by clients on the Filecoin network.  
+
+In short, this is achieved by appointing allocators responsible for assigning DataCap tokens to clients that are vetted by the allocator as trusted parties storing useful data. Clients then pay DataCap to storage providers as part of a storage deal, which increases a storage provider’s probability of earning block rewards.  
+
+Filecoin Plus creates demand on the Filecoin network, ensuring the datasets stored on the network are legitimate and useful to either the clients, or a third party.
+
+## DataCap
+DataCap is a token paid to storage providers as part of a deal in which the client and the data they are storing is verified by a Filecoin Plus allocator.  
+Batches of DataCap are granted to allocators by root-key holders, allocators give DataCap to verified clients, and clients pay DataCap to storage providers as part of a deal.  
+The more DataCap a storage provider ends up with, the higher probability they have to earn block rewards.  
+
+**Blockchain World News**, as a Filecoin Plus DataCap Allocator(It used to be called a **notary**), allocates DataCap by verifying data with clients who want to store public data.
+
+# Steps to DataCap as a Client
+The steps a client should follow to DataCap are as follows:
+
+1. Create a Filecoin wallet.
+
+2. Choose an allocator.
+
+3. Check that you satisfy the requirements of the allocator. In the case of uploading open source datasets with FIDL as the allocator, the client will need to demonstrate to FIDL that they can  
+   (1) satisfy a third party Know Your Customer(KYC) identity check,  
+   (2) provide the details of storage provider (entity, storage location) where the data is intended to be stored,  
+   (3) demonstrate proof that the dataset can be actively retrieved.  
+
+5. Submit an application for DataCap from an allocator. You can submit a request to FIDL via their Github application form or Google Form.
+
+6. Use the DataCap in a storage deal.
+
+
+
+
+
+
+
 # Client Dilligence
 ## 1.Client Verification & Initial Trust Establishment
 We will have to go through strict KYC verification. And have an in-depth understanding of the project background research (public website, GitHub, white paper)
