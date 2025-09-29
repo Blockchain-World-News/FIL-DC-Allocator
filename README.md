@@ -1,28 +1,36 @@
-# Blockchain World News Fil+ DC Allocator  
-## V6 FIL+ DC Allocator Bookkeeping Repository
+# Filecoin Plus DataCap Allocator of Blockchain World News   
+## V6 FIL+ DC Allocator
 **Conutry of Operation** : Republic of Korea  
 **Contact**  
   . e-mail : psh0691@gamil.com  
   . Slack : psh0691  
   . Kakaotalk : 0691psh  
-  . Telegram : heavenwish
-        
-# Allocator Json Link
-[Blockchain World News Filecoin Plus DataCap Alloctor](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
+  . Telegram : heavenwish  
+**Allocator Json Link**:
+[Blockchain World News](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recukrpBz5CjxcaHR.json)
 
 # What is Filecoin Plus?
 The goal of the Filecoin Plus program is to increase the amount of useful data stored with storage providers by clients on the Filecoin network.  
 
 In short, this is achieved by appointing allocators responsible for assigning DataCap tokens to clients that are vetted by the allocator as trusted parties storing useful data. Clients then pay DataCap to storage providers as part of a storage deal, which increases a storage provider’s probability of earning block rewards.  
 
-Filecoin Plus creates demand on the Filecoin network, ensuring the datasets stored on the network are legitimate and useful to either the clients, or a third party.
+Filecoin Plus creates demand on the Filecoin network, ensuring the datasets stored on the network are legitimate and useful to either the clients, or a third party.  
+
+**Blockchain World News**, as a Filecoin Plus DataCap Allocator(It used to be called a **notary**), allocates DataCap by verifying data with clients who want to store public data.
 
 ## DataCap
 DataCap is a token paid to storage providers as part of a deal in which the client and the data they are storing is verified by a Filecoin Plus allocator.  
 Batches of DataCap are granted to allocators by root-key holders, allocators give DataCap to verified clients, and clients pay DataCap to storage providers as part of a deal.  
 The more DataCap a storage provider ends up with, the higher probability they have to earn block rewards.  
 
-**Blockchain World News**, as a Filecoin Plus DataCap Allocator(It used to be called a **notary**), allocates DataCap by verifying data with clients who want to store public data.
+
+
+## Filecoin Plus Reference Site
+There are three resources you can use to check the current status of the Filecoin+ deals and participants:
+
+ - The [Filecoin Pulse dashboard](https://filecoinpulse.pages.dev/allocators/) includes visualizations of and tables for data about Filecoin Plus deals on the Filecoin blockchain, organized by Allocators, Clients, and Storage Providers.  
+ - The [Datacap Stats dashboard](https://datacapstats.io) shows DataCap allocations, including the number of allocators, clients, and storage providers. You can also see number and size of deals.  
+ - The [Starboard Dashboard](https://dashboard.starboard.ventures/market-deals) includes network health data related to Filecoin Plus verified deals.  
 
 # Steps to DataCap as a Client
 The steps a client should follow to DataCap are as follows:
@@ -31,7 +39,7 @@ The steps a client should follow to DataCap are as follows:
 
 2. Choose an allocator.
 
-3. Check that you satisfy the requirements of the allocator. In the case of uploading open source datasets with BWN as the Fil+ Allocator,  
+3. Check that you satisfy the requirements of the allocator. In the case of uploading open source datasets with BlockWorldNews as the Fil+ Allocator,  
    (1) satisfy a third party Know Your Customer(KYC) identity check,  
    (2) provide the details of storage provider (entity, storage location) where the data is intended to be stored,  
    (3) demonstrate proof that the dataset can be actively retrieved.  
@@ -39,14 +47,6 @@ The steps a client should follow to DataCap are as follows:
 5. Submit an [application](https://github.com/Blockchain-World-News/FIL-DC-Allocator/issues/new/choose) for DataCap from an allocator.
 
 6. Use the DataCap in a storage deal.
-
-# Filecoin Plus Reference Site
-There are three resources you can use to check the current status of the Filecoin+ deals and participants:
-
- - The [Filecoin Pulse dashboard](https://filecoinpulse.pages.dev/allocators/) includes visualizations of and tables for data about Filecoin Plus deals on the Filecoin blockchain, organized by Allocators, Clients, and Storage Providers.  
- - The [Datacap Stats dashboard](https://datacapstats.io) shows DataCap allocations, including the number of allocators, clients, and storage providers. You can also see number and size of deals.  
- - The [Starboard Dashboard](https://dashboard.starboard.ventures/market-deals) includes network health data related to Filecoin Plus verified deals.  
-
 
 # Diligence Clients
 
